@@ -1,0 +1,37 @@
+<div class="row main-card-item-product">
+    <div class="col-8">
+            <mat-card class="card-item-product cur" (click)="onDetailsProduct(product.id)">
+
+                <div class="section-one-product">
+                        <div class="image-product"></div>
+                        <div class="info-product">
+                           <span class="title-product">{{product.title}}</span>
+                           <div class="new-item">
+                                <mat-chip-list aria-label="Fish selection">
+                                        <mat-chip color="primary" selected>new</mat-chip>
+                                      </mat-chip-list>
+                           </div>
+                           <div class="desc-item">
+                               <p>{{product.desc}}</p>
+                           </div>
+                        </div>
+                </div>
+               
+                <div class="section-two-product">
+                    <div class="price">{{product.price}} $</div>
+                     
+                    <div class="rating">
+                            <div> 
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                            </div>
+                    </div>
+                    <div class="nbr-seller"></div>
+                </div>
+
+            </mat-card>
+    </div>
+</div>

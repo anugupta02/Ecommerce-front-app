@@ -1,0 +1,37 @@
+<div class="scroll-product-item">
+            <div class="title-navigation-btn-product-item">
+                <span>Popular Products</span>
+
+                <div class="btn-navigation-item-product">
+                        <button mat-mini-fab aria-label="Example icon-button with a heart icon" (click)="scrollLeft()">
+                                <i class="material-icons">keyboard_arrow_left</i>
+                       </button>
+       
+                       <button mat-mini-fab aria-label="Example icon-button with a heart icon" (click)="scrollRight()">
+                               <i class="material-icons">keyboard_arrow_right</i>
+                       </button>
+                </div>
+            </div>
+
+        <div class="items-product" #elemToScroll>
+                <mat-card class="card-item-product cur" *ngFor="let item of listItemProduct" (click)="goToDetails(item.id)">
+                    <div class="body-card">
+                        <img src="../../assets/aspire.png" alt="mac" width = "100%">
+                        <span class="title-product">{{item.title}}</span>
+                        <p>{{item.desc}}</p>
+                    </div>
+
+                    <div class="price-ratting">
+                        <div> 
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                        </div>
+                        <span>{{item.price}} $</span>
+                    </div>
+                </mat-card>
+        </div>
+        
+</div>

@@ -1,0 +1,29 @@
+<div class="row">
+        <div class="col-12">
+                <mat-toolbar>
+                        <mat-toolbar-row class="content-menu-header">
+
+                             <span class="name-menu">Fashion Trends</span>
+                             <i class="material-icons icon-menu" [matMenuTriggerFor]="menu">apps</i>
+
+                     <div class="input-container">
+                          <i class="material-icons icon">search</i>
+                          <input class="search" placeholder="Search products & brands" />
+                     </div>
+                             <span class="download-menu">Download App</span>
+                             <span class="auth-menu" routerLink="/signin">Sign Up / Sign In</span>
+                             <i class="material-icons image-cofre" matBadge={{valueBag}} >
+                                        shopping_cart
+                                        </i>
+                        </mat-toolbar-row>
+                </mat-toolbar>
+        </div>
+    </div>
+
+
+    <mat-menu #menu="matMenu">
+            <button (click)="goToCategory(item.id)" mat-menu-item class="item-category" *ngFor="let item of categoryList">
+                  <i class="material-icons">{{item.icon}}</i>
+                  <span>{{item.title}}</span>
+            </button>
+</mat-menu>

@@ -1,0 +1,66 @@
+.content-menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search {
+    border: none;
+    height: 50px;
+    width: 650px;
+    padding-left: 35px;
+margin-left: 45px;
+}
+
+.name-menu {
+  margin-left: 10px;
+  color: #686a6e;
+}
+
+.icon-menu {
+    cursor: pointer;
+}
+
+.download-menu {
+    cursor: pointer;
+    color: #686a6e;
+    font-size: 16px;
+  margin-right: 48px;
+}
+
+.auth-menu {
+    cursor: pointer;
+    color: #686a6e;
+    font-size: 16px;
+    margin-right: 100px;
+}
+
+.image-cofre {
+  margin-left: -120px;
+}
+
+.input-container {
+    display: flex;
+  }
+
+  .icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    order: 2;
+    margin-right: 25px;
+  }
+
+  .item-category {
+    display: flex;
+    align-items: center;
+  }
+
+  .item-category i {
+    margin-right: 8px;
+  }
+
+  .item-category span {
+    color: #999999;
+  }

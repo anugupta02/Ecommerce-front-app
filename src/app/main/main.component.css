@@ -1,0 +1,29 @@
+.main-main {
+    display: flex;
+}
+
+.menu-category {
+    height: 400px;
+    flex: 1;
+    margin-right: 12px;
+    margin-top: 20px;
+}
+
+.main-content {
+    flex: 6;
+    margin-top: 20px;
+}
+
+.category-item:hover {
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    background-color: rgba(223, 213, 213, 0.411);
+    border-radius: 8px;
+    align-items: center;
+}
+
+
+.container-item-category {
+
+}

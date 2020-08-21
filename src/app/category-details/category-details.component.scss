@@ -1,0 +1,32 @@
+.title-category {
+    height: 100px;
+    background: #6e1a52;
+    background: -moz-linear-gradient(left,  #6e1a52 0%, #d14652 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #6e1a52 0%,#d14652 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #6e1a52 0%,#d14652 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e1a52', endColorstr='#d14652',GradientType=1 ); /* IE6-9 */
+}
+
+.title-category div span {
+    color: white;
+    font-size: 28px;
+    margin-left: 60px;
+}
+
+.title-category div {
+    display: flex;
+    align-items: center;
+}
+
+.container-tr-card-hor {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pagination-component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+

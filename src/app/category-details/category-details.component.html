@@ -1,0 +1,21 @@
+<div class="container-fluid">
+    <app-nav-bar></app-nav-bar>
+
+    <div class="row title-category">
+        <div class="col-12">
+            <span>{{titleCategory}}</span>
+        </div>
+    </div>
+
+
+    <app-tr-slider></app-tr-slider>
+    <app-tr-filter-panel></app-tr-filter-panel>
+
+    <div class="container-tr-card-hor">
+        <app-tr-card-hor *ngFor="let item of products" [product]=item></app-tr-card-hor>
+           <div class="pagination-component">
+        <app-pagination-component></app-pagination-component>
+      </div>
+    </div>
+
+</div>

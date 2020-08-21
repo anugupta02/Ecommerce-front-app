@@ -1,0 +1,65 @@
+.main-card-item-product {
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.card-item-product {
+    height: 170px;
+    padding: 8px;
+    display: flex;
+    
+}
+
+.image-product {
+    width: 211px;
+    background-image: url('../../assets/aspire.png');
+    background-size: cover;
+    height: 100%;
+}
+
+.section-one-product {
+    display: flex;
+    height: 100%;
+    flex: 12;
+}
+.section-two-product {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 8px;
+}
+.checked {
+    color: orange;
+  } 
+
+
+.title-product {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 8px;
+  }
+
+.new-item {
+    margin: 8px;
+}
+
+.desc-item {
+    padding: 16px;
+    width: 550px;
+}
+
+.price {
+  
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.rating {
+    margin-top: auto;
+}
+
+.card-item-product:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }

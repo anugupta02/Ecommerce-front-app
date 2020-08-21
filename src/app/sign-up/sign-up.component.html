@@ -1,0 +1,88 @@
+<div class="container-fluid all-content">
+        <div class="row">
+            <div class="col">
+                <i class="material-icons icon-back" routerLink="/home">
+                    arrow_back_ios
+                    </i>
+
+                <div class="row info-sign-in">
+                            <div class="col-text-welcome">
+                                    <h2>Welcome to Shop Market</h2>
+                            </div>
+            
+                            <form class="form-sign-in" [formGroup]="signInForm" (ngSubmit)="onSignUpHandler()">
+
+                                    <div class="form-group row">
+                                            <!-- Default input -->
+                                            <div class="col-sm-10">
+                                              <input formControlName="fullName" mdbInput type="text" class="form-control" id="inputEmail34" placeholder="Full Name">
+                                            </div>
+                                          </div>
+
+                                <!-- Grid row -->
+                                <div class="form-group row">
+                                  <!-- Default input -->
+                                  <div class="col-sm-10">
+                                    <input formControlName="email" mdbInput type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                  </div>
+                                </div>
+                                <!-- Grid row -->
+                              
+                                <!-- Grid row -->
+                                <div class="form-group row">
+                                  <!-- Default input -->
+                                 
+                                  <div class="col-sm-10">
+                                    <input formControlName="password" mdbInput type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                  </div>
+                                </div>
+                                <!-- Grid row -->
+
+
+                              <!-- Grid row -->
+                              <div class="form-group row">
+                                <!-- Default input -->
+
+                                <div class="col-sm-10">
+                                  <div class="btn-sign-in">
+                                    <button class="btn btn-primary">Sign Un</button>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Grid row -->
+
+                              </form>
+                              <!-- Default horizontal form -->
+    
+                <div class="forgot-container">
+                       
+                </div>
+
+                  {{signInForm.status}}
+              <!--  <div class="btn-sign-in">
+                    <button class="btn btn-primary">Sign Un</button>
+                </div>-->
+    
+                <div class="social-media-btn">
+                        <button mat-fab aria-label="Example icon-button with a heart icon" class="btn-fb">
+                            f
+                        </button>
+    
+                        <button mat-fab aria-label="Example icon-button with a heart icon" class="btn-gmail">
+                            <img src="../../assets/gmail.png" width="25"/>
+                        </button>
+                </div>
+    
+                </div>
+    
+     
+    
+            </div>
+    
+            <div class="col">
+                    <div class="img-login">
+                            <img src="../../assets/image_sign_in.png"/>
+                    </div>
+            </div>
+        </div>
+    </div>

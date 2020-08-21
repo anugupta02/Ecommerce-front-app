@@ -1,0 +1,21 @@
+<div class="main-main">
+        <mat-card class="menu-category">
+            <div class="row">
+                <div class="col-12 c-v">
+                    <i class="material-icons">dashboard</i><span class="m-l-1"> Category</span>
+                
+                </div>
+            </div>
+
+            <div class="container-item-category">
+                        <mat-list role="list" class="category-item" *ngFor="let item of categoryList"> 
+                            <mat-list-item role="listitem">  <i class="material-icons m-r-1">desktop_mac</i>{{item.title}}</mat-list-item>
+                        </mat-list>
+            </div>
+                 
+        </mat-card>
+
+        <mat-card class="main-content">
+                <app-product-item></app-product-item>
+        </mat-card>
+</div>

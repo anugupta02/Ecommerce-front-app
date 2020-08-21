@@ -1,0 +1,91 @@
+
+.img-login {
+    display: flex;
+    justify-content: flex-end;
+    background: #fff;  
+}
+
+
+.info-sign-in {
+    margin-left: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 100%;
+    justify-content: center;
+    align-items: center
+}
+
+.col {
+    padding-right: 0px;
+    padding-left: 0px; 
+    background-color: white;
+}
+
+.col-text-welcome {
+    margin-bottom: 50px;
+    margin-right: 40px;
+    color: #133c5e;
+  
+}
+
+.col-text-welcome h2 {
+    font-weight: 700;
+}
+
+
+.form-sign-in {
+    width: 500px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ 
+
+.form-sign-in input {
+    height: 56px;
+    border-radius: 10px;
+    width: 400px;
+    background-color: #f7f7f7;
+}
+
+
+.icon-back {
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    cursor: pointer;
+}
+
+.forgot-container {
+     
+    color: #133c5e;
+}
+
+.btn-sign-in button{
+    background-color: #1ca9e1;
+    width: 300px;
+    height: 56px;
+    border-radius: 10px;
+   
+    margin-top: 20px;
+}
+
+
+.social-media-btn button{
+    margin-top: 40px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.btn-gmail {
+    background-color: white;
+}
+
+.btn-fb {
+    background-color: #3b5998;
+    font-size: 24px;
+}

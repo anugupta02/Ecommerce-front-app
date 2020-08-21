@@ -1,0 +1,111 @@
+.image-product img{
+  /*   height: 500px;
+    width: 400px;
+    background-image: url("../../assets/aspire.png");
+    background-size: cover; */
+    background-size: cover;
+}
+
+.image-product {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list-image-product {
+    height: 80px;
+    display: flex;
+}
+.list-image-product img {
+    margin: 8px;
+}
+.image-product-item-details:hover {
+    background-color: rgba(12, 12, 12, 0.096);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.command-value {
+    background-color: white;
+    display: flex;
+    width: 90px;
+    height: 34px;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.minus {
+    padding: 4px;
+    margin-left: 4px;
+    cursor: pointer;
+    
+ }
+
+.value {
+
+}
+
+.plus{
+    padding: 4px;
+    margin-right: 4px;
+    cursor: pointer;
+    color: #ffda27;
+}
+
+.btn-add-to-bag {
+    background-color: #ffda27;
+    width: 125px;
+    height: 34px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    margin-left: 14px;
+}
+
+.btn-and-value {
+    display: flex;
+}
+
+.details-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.price-product {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title-product {
+    font-weight: bold;
+}
+
+.slider {
+margin-bottom: 20px;
+}
+
+.content-image-slider {
+  display: flex;
+  flex-direction: column;
+
+  width: 70%;
+
+}
+
+.parent-slider-product {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

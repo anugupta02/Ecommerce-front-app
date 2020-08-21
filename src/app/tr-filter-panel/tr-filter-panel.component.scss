@@ -1,0 +1,16 @@
+.filter-panel {
+    margin-top: 30px;
+}
+
+.filter-panel mat-accordion {
+    height: 70px;
+}
+
+.container-filter {
+    justify-content: center;
+}
+
+
+.mat-expansion-panel:not([class*=mat-elevation-z]) {
+     box-shadow: none;
+}

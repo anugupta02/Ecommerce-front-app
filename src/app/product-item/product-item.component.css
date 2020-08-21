@@ -1,0 +1,23 @@
+.product-item {
+    height: 270px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.image-product {
+    width: 200px;
+    height: 150px;
+}
+
+.add-to-shop-btn {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+}
+
+.title-item-product {
+    display: flex;
+    justify-content: center;
+}

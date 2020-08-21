@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+.c-v {
+    display: flex;
+    align-items: center;
+}
+
+.m-r-1 {
+    margin-right: 10px;
+}
+
+
+.m-l-1 {
+    margin-left: 10px;
+}
+
+.cur {
+    cursor: pointer;
+}
+
+.bg-color-gray{
+    background-color: #f4f6fa;
+}
+
+body {
+    background-color: #f4f6fa;
+    color: #686a6e;
+    min-height: 100%;
+}
+
+.carousel-inner {
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.mat-menu-panel {
+    width: 200px;
+}
