@@ -1,4 +1,4 @@
-# E-commerce web application (Angular 8)
+# E-commerce web application (Angular 8)❤️ made by me🙂
 
 ```this application in progress```
 
